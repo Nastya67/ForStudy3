@@ -1,0 +1,6 @@
+D:\Nastya\CurStudy\OOP\lab3_1\lab3_1\bin\Debug\lab3_1.exe.config
+D:\Nastya\CurStudy\OOP\lab3_1\lab3_1\bin\Debug\lab3_1.exe
+D:\Nastya\CurStudy\OOP\lab3_1\lab3_1\bin\Debug\lab3_1.pdb
+D:\Nastya\CurStudy\OOP\lab3_1\lab3_1\obj\Debug\lab3_1.csprojResolveAssemblyReference.cache
+D:\Nastya\CurStudy\OOP\lab3_1\lab3_1\obj\Debug\lab3_1.exe
+D:\Nastya\CurStudy\OOP\lab3_1\lab3_1\obj\Debug\lab3_1.pdb

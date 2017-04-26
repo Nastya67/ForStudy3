@@ -1,0 +1,34 @@
+nastya
+6
+3856
+
+
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+4 S     0     1     0  0  80   0 - 29970 -      ?        00:00:01 systemd
+4 S     0  1919     1  0  80   0 - 73040 -      ?        00:00:00 lightdm
+4 S     0  2436  1919  0  80   0 - 57059 -      ?        00:00:00  \_ lightdm
+4 S  1000  2552  2436  0  80   0 - 13441 poll_s ?        00:00:00      \_ upstart
+0 S  1000  3849  2552  0  80   0 - 165524 poll_s ?       00:00:01          \_ gnome-terminal-
+0 S  1000  3856  3849  0  80   0 -  7376 wait   pts/2    00:00:00              \_ bash
+
+
+S   PID   UID %MEM CMD
+R  3957  1000 37.5 /usr/lib/firefox/firefox
+R  2848  1000  6.8 compiz
+S  3534  1000  4.5 /usr/bin/gnome-software --gapplication-service
+S  2830  1000  1.1 /usr/lib/unity-settings-daemon/unity-settings-daemon
+S  3490  1000  1.8 nautilus -n
+S  3595  1000  2.2 /usr/lib/evolution/evolution-calendar-factory
+S  3648  1000  2.0 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx3595x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/3595/2
+
+
+
+F S UID        PID  PPID  C PRI  NI ADDR SZ WCHAN  STIME TTY          TIME CMD
+0 R nastya   24663 24650 15  96  16 -  3590 -      00:23 pts/2    00:01:07 yes fg
+0 R nastya   24673 24650 40  64 -16 -  3590 -      00:25 pts/2    00:02:06 yes bg
+0 R nastya   24675 24650  1  90  10 -  3590 -      00:26 pts/2    00:00:03 yes nice
+
+
+F S UID        PID  PPID  C PRI  NI ADDR SZ WCHAN  STIME TTY          TIME CMD
+0 R nastya   24663 24650  8  96  16 -  3590 -      00:23 pts/2    00:01:37 yes fg
+0 R nastya   24675 24650  5  96  16 -  3590 -      00:26 pts/2    00:00:52 yes nice

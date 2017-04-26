@@ -1,0 +1,15 @@
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\bin\Debug\TestSFML.exe.config
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\bin\Debug\csfml-audio-2.dll
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\bin\Debug\csfml-graphics-2.dll
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\bin\Debug\csfml-system-2.dll
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\bin\Debug\csfml-window-2.dll
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\bin\Debug\libsndfile-1.dll
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\bin\Debug\openal32.dll
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\bin\Debug\TestSFML.exe
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\bin\Debug\TestSFML.pdb
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\bin\Debug\sfmlnet-audio-2.dll
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\bin\Debug\sfmlnet-graphics-2.dll
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\bin\Debug\sfmlnet-system-2.dll
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\bin\Debug\sfmlnet-window-2.dll
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\obj\Debug\TestSFML.exe
+D:\Nastya\CurStudy\OOP\TestSFML\TestSFML\obj\Debug\TestSFML.pdb

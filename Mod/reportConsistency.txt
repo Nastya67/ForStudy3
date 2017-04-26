@@ -1,0 +1,30 @@
+Model Inconsistencies:
+ 
+Diagram A-0:  Производство одежды под заказ на китайской фабрике 
+    has 1 unresolved (square tunneled) arrow connection:
+        Sink: Врач
+ 
+Diagram A11.1:  Предворительный расчет  и планирование производства и доставки товара 
+    has 2 unnamed junctions
+    has 10 unnamed arrows
+ 
+Diagram A2:  Изготовление одежды
+    has 12 unresolved (square tunneled) arrow connections:
+        Sink: Ткань
+        Source: Накладная после покроя
+        Sink: Образцы одежды
+        Sink: План производства и доставки
+        Source: Детали
+        Sink: Ескзы и чертежи главного дизайнера
+        Sink: ДСТУ EN 13402-3:2009
+        Sink: Швейный и покроечный станок
+        Sink: Правила кроя, шитья
+        Sink: Инструкции использования станков
+        Sink: Швея, покройщик
+        Sink: ДСТУ 1460-91
+ 
+Diagram A21:  Покрой 
+    has 6 unnamed arrows
+ 
+Diagram A3:  Отправка товара 
+      Activity "Доставка товара" has no Control

@@ -1,0 +1,108 @@
+Report for Diagram: A-0, Производство одежды под заказ на китайской фабрике 
+
+
+Activity Name: Производство одежды под заказ на китайской фабрике 
+Activity Status: WORKING
+Activity Author: Nastya
+Object Type: Activity
+Activity Number: A0
+
+Link Name: Ткань
+Link Status: PUBLICATION
+Link Author: Nastya
+
+Link Name: Заказ покупателя
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Выполненый заказ
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Швейный и покроечный станок
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Фурнитура
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Технолог
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Швея, покройщик
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Правила кроя, шитья
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Законодательство страны
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Юрист, бугалтер
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Руководство
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Ескзы и чертежи главного дизайнера
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Нитки
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Договор
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Нормативный документ фабрики
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Гладильный пресс
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Водитель
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Врач
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Инструкции использования станков
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Логисты
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Предоплата
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Фирменные лекала
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: Акт выполненых работ
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: ДСТУ 1460-91
+Link Status: WORKING
+Link Author: Nastya
+
+Link Name: ДСТУ EN 13402-3:2009
+Link Status: WORKING
+Link Author: Nastya

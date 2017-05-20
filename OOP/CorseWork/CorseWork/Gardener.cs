@@ -1,11 +1,15 @@
-﻿using System;
+﻿using SFML.Graphics;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CorseWork
 {
+    
     public class DisWarm
     {
         public List<Fruit> exec;
@@ -17,35 +21,64 @@ namespace CorseWork
             }
         }
     }
+    [Serializable]
     public class Gardener
     {
         private static Gardener _gardener;
         public string name { get; private set; }
+        [NonSerialized]
         DisWarm disWarmComand = new DisWarm();
         public Garden garden;
-
-
-        private Gardener (string name)
+        public int numGetFruit = 0;
+        private Gardener ()
         {
-            this.name = name;
         }
-        public static Gardener gardener(string name)
+        public static Gardener gardener()
         {
             if (_gardener == null)
-                _gardener = new Gardener(name);
+                _gardener = new Gardener();
             return _gardener;
+        }
+        
+        public void loadGarden()
+        {
+            var formatter = new BinaryFormatter();
+            Stream stream2 = new FileStream("MyFile.bin", FileMode.Open, FileAccess.Read);
+            Gardener gardener = (Gardener)formatter.Deserialize(stream2);
+            stream2.Close();
+            garden.init();
         }
         public void killWarms()
         {
+            List<Fruit> l = new List<Fruit>();
+            garden.getFruitList(l);
+            disWarmComand.exec = l;
             disWarmComand.killWarm();
         }
         public void refreshGarden()
         {
-
+            garden.refresh();
+        }
+        public void display(RenderWindow app)
+        {
+            garden.display(app);
         }
         public int getFruits()
         {
-            return garden.getFruits();
+            numGetFruit +=  garden.getFruits();
+            return numGetFruit;
+        }
+        public GardenComponent bought(int id)
+        {
+            return Shop.bought(Shop.names[id]);
+        }
+        public void AddNewElementToGarden(GardenComponent elem)
+        {
+            garden.add(elem);
+        }
+        public int getFallenFruit()
+        {
+            return garden.getFallenFruits();
         }
     }
 }

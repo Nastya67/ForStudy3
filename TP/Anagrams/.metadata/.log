@@ -1,0 +1,270 @@
+!SESSION 2017-05-18 19:29:11.593 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-18 19:32:42.053
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-18 19:32:42.142
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hradi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2017-05-18 19:56:32.619
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2017-05-18 19:56:32.619
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.619
+!MESSAGE Software being installed: Xtext Complete SDK 2.11.0.v20170201-0242 (org.eclipse.xtext.sdk.feature.group 2.11.0.v20170201-0242)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.619
+!MESSAGE Missing requirement: Xtext Testing Infrastructure 2.11.0.v20170130-0808 (org.eclipse.xtext.testing 2.11.0.v20170130-0808) requires 'bundle org.junit 4.12.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-05-18 19:56:32.619
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.619
+!MESSAGE From: Xtext Complete SDK 2.11.0.v20170201-0242 (org.eclipse.xtext.sdk.feature.group 2.11.0.v20170201-0242)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.619
+!MESSAGE To: org.eclipse.xtext.testing [2.11.0.v20170130-0808]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2017-05-18 19:56:32.630
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2017-05-18 19:56:32.630
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.630
+!MESSAGE Software being installed: Xtext Complete SDK 2.11.0.v20170201-0242 (org.eclipse.xtext.sdk.feature.group 2.11.0.v20170201-0242)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.630
+!MESSAGE Missing requirement: Xtext Testing Infrastructure 2.11.0.v20170130-0808 (org.eclipse.xtext.testing 2.11.0.v20170130-0808) requires 'bundle org.junit 4.12.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-05-18 19:56:32.630
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.630
+!MESSAGE From: Xtext Complete SDK 2.11.0.v20170201-0242 (org.eclipse.xtext.sdk.feature.group 2.11.0.v20170201-0242)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.630
+!MESSAGE To: org.eclipse.xtext.testing [2.11.0.v20170130-0808]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2017-05-18 19:56:32.645
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2017-05-18 19:56:32.645
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.645
+!MESSAGE Software being installed: Xtext Complete SDK 2.11.0.v20170201-0242 (org.eclipse.xtext.sdk.feature.group 2.11.0.v20170201-0242)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.645
+!MESSAGE Missing requirement: Xtext Testing Infrastructure 2.11.0.v20170130-0808 (org.eclipse.xtext.testing 2.11.0.v20170130-0808) requires 'bundle org.junit 4.12.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-05-18 19:56:32.645
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.645
+!MESSAGE From: Xtext Complete SDK 2.11.0.v20170201-0242 (org.eclipse.xtext.sdk.feature.group 2.11.0.v20170201-0242)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.645
+!MESSAGE To: org.eclipse.xtext.testing [2.11.0.v20170130-0808]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2017-05-18 19:56:32.652
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2017-05-18 19:56:32.652
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.652
+!MESSAGE Software being installed: Xtext Complete SDK 2.11.0.v20170201-0242 (org.eclipse.xtext.sdk.feature.group 2.11.0.v20170201-0242)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.652
+!MESSAGE Missing requirement: Xtext Testing Infrastructure 2.11.0.v20170130-0808 (org.eclipse.xtext.testing 2.11.0.v20170130-0808) requires 'bundle org.junit 4.12.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2017-05-18 19:56:32.652
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.652
+!MESSAGE From: Xtext Complete SDK 2.11.0.v20170201-0242 (org.eclipse.xtext.sdk.feature.group 2.11.0.v20170201-0242)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2017-05-18 19:56:32.652
+!MESSAGE To: org.eclipse.xtext.testing [2.11.0.v20170130-0808]
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2017-05-18 20:02:18.565
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/antlr4ide/antlr4ide-eclipse-release/master/content.jar
+!SESSION 2017-05-18 20:02:28.481 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-18 20:02:43.205
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-18 20:02:43.218
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hradi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2017-05-18 20:03:50.715
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/antlr4ide/antlr4ide-eclipse-release/master/content.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2017-05-18 20:03:57.511
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/antlr4ide/antlr4ide-eclipse-release/master/content.jar
+
+!ENTRY org.eclipse.equinox.p2.repository 2 0 2017-05-18 20:04:01.313
+!MESSAGE Server returned lastModified <= 0 for https://raw.githubusercontent.com/antlr4ide/antlr4ide-eclipse-release/master/artifacts.jar
+!SESSION 2017-05-18 20:50:25.101 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-18 20:50:45.645
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-18 20:50:45.682
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hradi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2017-05-18 21:08:52.004 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-18 21:09:05.958
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-18 21:09:06.103
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hradi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.log4j 4 0 2017-05-18 21:10:55.851
+!MESSAGE org.eclipse.xtext.ui.util.ProjectFactory  - A resource exists with a different case: '/lab2'.
+
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource exists with a different case: '/lab2'.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:329)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:307)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:52)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at org.eclipse.xtext.ui.util.ProjectFactory.createProject(ProjectFactory.java:139)
+	at org.eclipse.xtext.ui.wizard.AbstractProjectCreator.createProject(AbstractProjectCreator.java:114)
+	at org.eclipse.xtext.ui.wizard.AbstractProjectCreator.execute(AbstractProjectCreator.java:79)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.xtext.ui.wizard.XtextNewProjectWizard.doFinish(XtextNewProjectWizard.java:83)
+	at org.eclipse.xtext.ui.wizard.XtextNewProjectWizard$1.run(XtextNewProjectWizard.java:55)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2017-05-18 21:10:55.852
+!MESSAGE A resource exists with a different case: '/lab2'.
+
+!ENTRY org.apache.log4j 4 0 2017-05-18 21:13:53.293
+!MESSAGE org.eclipse.xtext.ui.util.ProjectFactory  - A resource exists with a different case: '/lab2'.
+
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource exists with a different case: '/lab2'.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:329)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:307)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:52)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at org.eclipse.xtext.ui.util.ProjectFactory.createProject(ProjectFactory.java:139)
+	at org.eclipse.xtext.ui.wizard.AbstractProjectCreator.createProject(AbstractProjectCreator.java:114)
+	at org.eclipse.xtext.ui.wizard.AbstractProjectCreator.execute(AbstractProjectCreator.java:79)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.xtext.ui.wizard.XtextNewProjectWizard.doFinish(XtextNewProjectWizard.java:83)
+	at org.eclipse.xtext.ui.wizard.XtextNewProjectWizard$1.run(XtextNewProjectWizard.java:55)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2017-05-18 21:13:53.293
+!MESSAGE A resource exists with a different case: '/lab2'.
+
+!ENTRY org.apache.log4j 4 0 2017-05-18 21:15:14.735
+!MESSAGE org.eclipse.xtext.ui.util.ProjectFactory  - A resource exists with a different case: '/lab2'.
+
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource exists with a different case: '/lab2'.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:329)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:307)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:52)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at org.eclipse.xtext.ui.util.ProjectFactory.createProject(ProjectFactory.java:139)
+	at org.eclipse.xtext.ui.wizard.AbstractProjectCreator.createProject(AbstractProjectCreator.java:114)
+	at org.eclipse.xtext.ui.wizard.AbstractProjectCreator.execute(AbstractProjectCreator.java:79)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.xtext.ui.wizard.XtextNewProjectWizard.doFinish(XtextNewProjectWizard.java:83)
+	at org.eclipse.xtext.ui.wizard.XtextNewProjectWizard$1.run(XtextNewProjectWizard.java:55)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2017-05-18 21:15:14.735
+!MESSAGE A resource exists with a different case: '/lab2'.
+!SESSION 2017-05-18 21:15:53.539 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_131
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-18 21:16:05.368
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-05-18 21:16:05.615
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Hradi'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.apache.log4j 4 0 2017-05-18 21:17:23.612
+!MESSAGE org.eclipse.xtext.ui.util.ProjectFactory  - A resource exists with a different case: '/lab2'.
+
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: A resource exists with a different case: '/lab2'.
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:329)
+	at org.eclipse.core.internal.resources.Resource.checkDoesNotExist(Resource.java:307)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:52)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at org.eclipse.xtext.ui.util.ProjectFactory.createProject(ProjectFactory.java:139)
+	at org.eclipse.xtext.ui.wizard.AbstractProjectCreator.createProject(AbstractProjectCreator.java:114)
+	at org.eclipse.xtext.ui.wizard.AbstractProjectCreator.execute(AbstractProjectCreator.java:79)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.xtext.ui.wizard.XtextNewProjectWizard.doFinish(XtextNewProjectWizard.java:83)
+	at org.eclipse.xtext.ui.wizard.XtextNewProjectWizard$1.run(XtextNewProjectWizard.java:55)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.core.resources 4 275 2017-05-18 21:17:23.613
+!MESSAGE A resource exists with a different case: '/lab2'.

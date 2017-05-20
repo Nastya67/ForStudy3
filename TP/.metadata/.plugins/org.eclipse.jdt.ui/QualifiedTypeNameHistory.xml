@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.antlr.runtime.CharStream"/>
+<fullyQualifiedTypeName name="org.antlr.runtime.ANTLRInputStream"/>
+<fullyQualifiedTypeName name="org.antlr.v4.runtime.CommonTokenStream"/>
+<fullyQualifiedTypeName name="org.antlr.v4.runtime.TokenStream"/>
+<fullyQualifiedTypeName name="org.antlr.v4.runtime.tree.ParseTree"/>
+</qualifiedTypeNameHistroy>

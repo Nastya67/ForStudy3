@@ -1,0 +1,1 @@
+INDEX VERSION 1.127+D:\Nastya\ForStudy3\TP\.metadata\.plugins\org.eclipse.jdt.core
